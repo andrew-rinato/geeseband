@@ -41,11 +41,12 @@
 
 .nav_ul {
   list-style: none;
-  justify-content: center;
+  margin:0px;
+  padding:0px;
 }
 
-li.nav_ul {
-  margin: 10px 0px 0px 0px;
+.nav_ul li {
+  margin-top:10px;
 }
 
 .link {
@@ -73,7 +74,6 @@ button.link {
   font-size: 24px;
 }
 
-#canvas_image {
-  height:100px;
-  width: 100px;
+.gallery_image {
+  margin-top:20px;
 }

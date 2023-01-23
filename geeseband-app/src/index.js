@@ -1,26 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Canvas from './components/Canvas.js'
-
-const draw = context => {
-  var image = new Image();
-  image.src = './assets/c1.png';
-
-  context.drawImage(image,10,50);
-  context.fillText("Images won't load", 10, 50);
-
-};
+import Gallery from './components/Gallery.js'
 
 class Page extends React.Component {
+
   render() {
     return (
       <div className="main_div">
         <div className="center_div">
           <div className ='title_div'>GEESE</div>
           <div className="gallery">
-           <Canvas draw={draw}/>
-            {/*<img src = './assets/c1.png' id ='canvas_image'></img>*/}
+           <Gallery/>
           </div>
           <div className = 'nav_div'>
             <ul className = 'nav_ul'>
