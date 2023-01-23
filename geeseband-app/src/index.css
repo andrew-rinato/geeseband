@@ -54,9 +54,23 @@ li.nav_ul {
   text-transform: uppercase;
 }
 
+@keyframes flash {
+  0%   {color: black;}
+  25%  {color: darkgrey;}
+  50%  {color: black;}
+  100% {color: darkgrey;}
+}
+
+.link:hover {
+  animation-name: flash;
+  animation-duration: 2s;
+}
+
 button.link {
   background:transparent;
   border: none;
+  font-family: 'geeseband';
+  font-size: 24px;
 }
 
 #canvas_image {

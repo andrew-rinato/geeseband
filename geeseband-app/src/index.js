@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Canvas from './components/Canvas.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const draw = context => {
   var image = new Image();
