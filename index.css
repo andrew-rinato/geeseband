@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'geeseband';
+  src: url('./assets/geeseband.otf');
+}
+
+.main_div {
+  margin: 0 !important; 
+  height: 100vh;
+  width: 100vw;
+  background: url('./assets/bg_cracked_plaster.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'geeseband';
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.center_div{
+  margin:auto;
+  width:fit-content;
+}
+
+.title_div {
+  font-size: 36px;
+  margin:auto;
+  justify-content: center;
+  display: flex;
+}
+
+.gallery {
+  margin:auto;
+  width:fit-content;
+}
+.nav_div {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.nav_ul {
+  list-style: none;
+  justify-content: center;
+}
+
+li.nav_ul {
+  margin: 10px 0px 0px 0px;
+}
+
+.link {
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+}
+
+button.link {
+  background:transparent;
+  border: none;
+}
+
+#canvas_image {
+  height:100px;
+  width: 100px;
+}
