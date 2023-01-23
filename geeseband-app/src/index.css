@@ -67,14 +67,14 @@ body {
 
 @keyframes flash {
   0%   {color: black;}
-  25%  {color: darkgrey;}
-  50%  {color: black;}
-  100% {color: darkgrey;}
+  50%  {color: darkgrey;}
+  100% {color: black;}
 }
 
 .link:hover {
   animation-name: flash;
-  animation-duration: 2s;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
 }
 
 button.link {
