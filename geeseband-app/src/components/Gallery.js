@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Images from './ImageArray'
-import Frame from '../assets/frame.png'
+import Frame from '../assets/wooden_frame.png'
 var poissonProcess = require('poisson-process');
 
 

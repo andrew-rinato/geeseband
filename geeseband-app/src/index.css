@@ -13,8 +13,9 @@ body {
   margin: 0 !important; 
   height: 100vh;
   width: 100vw;
-  background: url('./assets/bg_cracked_plaster.jpg') no-repeat center center fixed;
-  background-size: cover;
+/*  background: url('./assets/bg_cracked_plaster.jpg') no-repeat center center fixed;
+  background-size: cover;*/
+  background-color: #AEB6BD;
   font-family: 'geeseband';
   display: inline-flex;
   flex-wrap: wrap;
@@ -31,7 +32,8 @@ body {
   margin:auto;
   justify-content: center;
   display: flex;
-  margin-bottom:40px;
+  margin-bottom:100px;
+  padding-left:10px;
 }
 
 .gallery {
@@ -53,6 +55,7 @@ body {
   margin:0px;
   margin-top:70px;
   padding:0px;
+  padding-left:20px;
 }
 
 .nav_ul li {
@@ -90,8 +93,8 @@ button.link {
 
 .gallery_frame {
   position: absolute;
-  height:350px;
-  width:360px;
-  top:-40px;
-  left:-50px;
+  height:500px;
+  width:500px;
+  top:-130px;
+  left:-115px;
 }
