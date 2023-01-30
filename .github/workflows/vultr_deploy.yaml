@@ -43,7 +43,8 @@ jobs:
         key: ${{secrets.VULTR_SSH_KEY}}
         username: abogaard
         script: |
-          cd /home/abogaard
+          cd /home/abogaard/geeseband-app
           npm install
           npm run build
-          sudo mv /home/abogaard/build/* /var/www/html
+          sudo rm -r /var/www/html/static
+          sudo mv /home/abogaard/geeseband-app/build/* /var/www/html
