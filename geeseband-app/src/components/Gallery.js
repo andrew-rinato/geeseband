@@ -18,7 +18,6 @@ const Gallery = (props) => {
 
   useEffect(() => {
     const p = poissonProcess.create(5000, function updateImage() {
-      console.log(img_src.length);
       var r = Math.floor(Math.random() * img_src.length);
       // console.log(getRandomInt(2023010100, strftime('%Y%m%d%H', new Date())));
       if (img_src[r]) {
