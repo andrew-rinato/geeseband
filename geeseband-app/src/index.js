@@ -15,6 +15,7 @@ class Page extends React.Component {
   render() {
     return (
       <div className="main_div">
+        <div className="spacer"></div>
         <div className="gallery">
          <Gallery/>
         </div>

@@ -21,11 +21,17 @@ body {
 
 .main_div {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   min-height: 100vh;
+}
+
+.spacer {
+  margin-bottom: auto;
+  visibility: hidden;
 }
 
 .gallery {
@@ -77,7 +83,8 @@ body {
 }
 
 .social_div {
-  margin-top: 20px;
+  margin-top: auto;
+  padding-top: 25px;
   width: 350px;
   display: flex;
   flex-direction: row;
