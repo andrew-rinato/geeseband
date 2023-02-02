@@ -1,3 +1,6 @@
+html {
+  margin:0;
+}
 body {
   margin: 0 !important; 
   height: 100vh;
@@ -22,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 100vh;
 }
 
 .gallery {
@@ -72,6 +76,16 @@ body {
   
 }
 
+.social_div {
+  position: absolute;
+  bottom:0px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+
 a {
   font-family: geeseband;
   font-size: 17px;
@@ -81,6 +95,11 @@ a {
 .link {
   text-decoration: none;
   color:black;
+}
+
+.social_icons {
+  width: auto;
+  height: 25px;
 }
 
 @keyframes flash {
